@@ -1,0 +1,11 @@
+const inputArr=[]; //Given in the problm
+
+inputArr.forEach(obj =>{
+ console.log(obj['id']+" "+obj['text'])
+if(obj['children']){
+  console.log(obj['children']['id']+" "+ obj['children']['text'])
+}
+}
+
+
+})
